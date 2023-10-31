@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">carbon-reducer</string>
+    <string name="title_activity_main">carbon-reducer</string>
+    <string name="package_name">com.mranj.carbonreducer</string>
+    <string name="custom_url_scheme">com.mranj.carbonreducer</string>
+</resources>
