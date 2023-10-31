@@ -35,7 +35,7 @@ setupIonicReact();
 
 
 const App: React.FC = () => {
-  console.log('Before calling useAuthInit:');
+  console.log('Before calling useAuthInit:  !');
   const { loading, auth } = useAuthInit();
   
   console.log('rendering App with auth:', auth);

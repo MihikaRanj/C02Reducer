@@ -1,9 +1,9 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'cac',
-  webDir: 'dist',
+  appId: 'com.mranj.carbonreducer',
+  appName: 'carbon-reducer',
+  webDir: 'build',
   server: {
     androidScheme: 'https'
   }
