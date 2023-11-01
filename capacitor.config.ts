@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.mranj.carbonreducer',
-  appName: 'carbon-reducer',
+  appName: 'Carb0',
   webDir: 'dist',
   server: {
     androidScheme: 'https'

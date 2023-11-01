@@ -36,13 +36,13 @@ const RegisterPage: React.FC = () => {
           <IonItem>
             <IonLabel position="stacked">Email</IonLabel>
             <IonInput type="email" value={email}
-              onIonChange={(event) => setEmail(String(event.detail.value))}
+              onIonInput={(event) => setEmail(String(event.detail.value))}
             />
           </IonItem>
           <IonItem>
             <IonLabel position="stacked">Password</IonLabel>
             <IonInput type="password" value={password}
-              onIonChange={(event) => setPassword(String(event.detail.value))}
+              onIonInput={(event) => setPassword(String(event.detail.value))}
             />
           </IonItem>
         </IonList>

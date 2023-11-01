@@ -60,21 +60,21 @@ const AddVehiclePage: React.FC = () => {
           <IonItem>
             <IonLabel position="stacked" >Vehicle Make/ Brand <IonText color="danger">(Required)</IonText></IonLabel> 
             <IonInput required={true} value={vehicleBrandName}
-              onIonChange={(event) => setVehicleBrandName(String(event.detail.value))}
+              onIonInput={(event) => setVehicleBrandName(String(event.detail.value))}
             />
           </IonItem>
           <IonItem>
             <IonLabel position="stacked">How many miles do you drive per week? 
             <br/><IonText color="danger">(Required)</IonText></IonLabel>
             <IonInput value={milesDriven}
-              onIonChange={(event) => setMilesDriven(String(event.detail.value))}
+              onIonInput={(event) => setMilesDriven(String(event.detail.value))}
             />
           </IonItem>
           <IonItem>
             <IonLabel position="stacked" >What is your car's fuel economy? <IonText color="danger">(Required)</IonText> </IonLabel>
             <IonText>Tip: The national average is 21.6 miles per gallon. Check Extra tab for help finding this. </IonText>
             <IonInput value={milesPerGallon}
-              onIonChange={(event) => setMilesPerGallon(String(event.detail.value))}
+              onIonInput={(event) => setMilesPerGallon(String(event.detail.value))}
             />
 
           </IonItem>

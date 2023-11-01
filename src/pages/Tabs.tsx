@@ -13,7 +13,7 @@ import {
 } from '@ionic/react'
 import { Redirect, Route } from 'react-router'
 
-import { ellipse, home as homeIcon, logOut, settings as settingsIcon, square, star, triangle } from 'ionicons/icons';
+import { calculator, ellipse, home as homeIcon, library, logOut, settings as settingsIcon, square, star, trash, triangle } from 'ionicons/icons';
 import Tab3 from './Tab3'
 import Tab4 from './Tab4'
 import { useAuth, useAuthInit } from '../auth'
@@ -59,15 +59,15 @@ const Tabs: React.FC = () => {
             </IonRouterOutlet>
             <IonTabBar slot='bottom'>
                 <IonTabButton tab='calculate' href='/app/calculate'>
-                    <IonIcon icon={ellipse}/>
+                    <IonIcon icon={calculator}/>
                     <IonLabel>Calculate</IonLabel>
                 </IonTabButton>
                 <IonTabButton tab='reduce' href='/app/reduce'>
-                    <IonIcon icon={triangle}></IonIcon>
+                    <IonIcon icon={trash}></IonIcon>
                     <IonLabel>Reduce</IonLabel>
                 </IonTabButton>
                 <IonTabButton tab='tab3' href='/app/tab3'>
-                    <IonIcon icon={square}></IonIcon>
+                    <IonIcon icon={library}></IonIcon>
                     <IonLabel>Learn</IonLabel>
                 </IonTabButton>
                 <IonTabButton tab='tab4' href='/app/tab4'>
