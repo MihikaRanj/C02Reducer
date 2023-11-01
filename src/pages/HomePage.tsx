@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
         <IonPage>
             <IonContent className="ion-padding">
                 <IonText>
-                Welcome to the </IonText> <IonText color={warning}>Carb0</IonText> <IonText> app, where you will be able to calculate your carbon footprint, learn how to reduce your carbon intake, read about what carbon footprint is and other terms surrounding it, and lastly, find some external information if you are curious to learn more. The app is meant to let you learn about CO2 emissions and what you can do to prevent them.
+                Welcome to the </IonText> <IonText color={warning}>Carbon0</IonText> <IonText> app, where you will be able to calculate your carbon footprint, learn how to reduce your carbon intake, read about what carbon footprint is and other terms surrounding it, and lastly, find some external information if you are curious to learn more. The app is meant to let you learn about CO2 emissions and what you can do to prevent them.
                 </IonText> 
                 <br/><br/>
                 <IonText>
