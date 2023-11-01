@@ -131,7 +131,7 @@ const WastePage: React.FC = () => {
 
           <React.Fragment>
             <IonItem>
-              <IonCheckbox justify="start" checked={(recycleCans == undefined) ? orgRecycleCans : recycleCans} onIonChange={(e) => setRecycleCans((e.detail.checked))}>Do you recycle aluminum and steel cans?</IonCheckbox>
+              <IonCheckbox justify="start" checked={(recycleCans == undefined) ? orgRecycleCans : recycleCans} onIonChange={(e) => setRecycleCans((e.detail.checked))}>Do you recycle cans?</IonCheckbox>
             </IonItem>
             <IonItem>
               <IonCheckbox justify="start" checked={(recyclePlastic == undefined) ? orgRecyclePlastic : recyclePlastic} onIonChange={(e) => setRecyclePlastic((e.detail.checked))}>Do you recycle plastic?</IonCheckbox>

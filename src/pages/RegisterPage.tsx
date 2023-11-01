@@ -22,7 +22,7 @@ const RegisterPage: React.FC = () => {
   };
 
   if (loggedIn) {
-    return <Redirect to="/app" />;
+    return <Redirect to="/home" />;
   }
   return (
     <IonPage>

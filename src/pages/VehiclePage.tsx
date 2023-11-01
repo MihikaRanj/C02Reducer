@@ -93,7 +93,7 @@ const VehiclePage: React.FC = () => {
                             </div>
                         </IonCol>
                         <IonCol width-25>
-                            <IonButton routerLink="/app/vehicle/add">Add</IonButton>
+                            <IonButton routerLink="/app/addvehicle">Add</IonButton>
                         </IonCol>
                         <IonCol width-25 >
                         </IonCol>

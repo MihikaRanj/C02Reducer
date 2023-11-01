@@ -50,7 +50,7 @@ const Tabs: React.FC = () => {
                 <Route path='/app/tab4' component={Tab4}/>
                 <Route path='/app/cfc' component={CarbonFootprintCalculatorPage}/>
                 <Route path='/app/vehicle' component={VehiclePage}/>
-                <Route path='/app/vehicle/add' component={AddVehiclePage}/>
+                <Route path='/app/addvehicle' component={AddVehiclePage}/>
                 <Route path='/app/basics' component={BasicsPage}/>
                 <Route path='/app/waste' component={WastePage}/>
                 <Route exact path="/app">

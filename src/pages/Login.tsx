@@ -30,7 +30,7 @@ const Login: React.FC = () => {
 
     const handleLogin = async () => {
         try {
-            setStatus({ loading: true, error: false })
+            //setStatus({ loading: true, error: false })
             //setStatus({ loading: false, error: true })
             const credential = await auth.signInWithEmailAndPassword(email, password)
             /*setStatus({ loading: false, error: false });*/
